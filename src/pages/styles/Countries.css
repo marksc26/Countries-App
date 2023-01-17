@@ -49,6 +49,7 @@
     font-weight: bolder;
     border-radius: 5px;
     outline: none;
+    border: none;
 }
 
 .select option{
@@ -75,5 +76,26 @@
     background-color: #0d1b2a;
     color:rgb(236, 234, 234);
     
+}
+
+@media(max-width: 550px){
+
+    
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 50px 20px;
+}
+
+.select{
+    margin: 30px;
+    margin-bottom: 0;
+    border: none;
+}
+.form-container input{
+    width: 230px;
+}
+
 }
 

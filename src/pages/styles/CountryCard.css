@@ -10,12 +10,12 @@
     justify-content: center;
     margin: 50px;
     font-family: 'Amatic SC', cursive;
-    font-size: 30px;
+    font-size: 28px;
     
 }
 
 .info-container img{
-    width: 550px;
+    width: 490px;
     border-radius: 22px;
     animation: 4s infinite flotar;
 }
