@@ -1,0 +1,79 @@
+.main{
+    background-color: rgb(236, 234, 234);
+}
+
+.form-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.form-container input{
+    width: 300px;
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    outline: none;
+
+}
+
+.form-container button{
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #214368;
+    color: white;
+}
+
+.form-container button:hover{
+    background-color: #3f81c7;
+}
+
+.input-button{
+    display: flex;
+    align-items: center;
+}
+
+.select{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 5px;
+    outline: none;
+}
+
+.select option{
+    cursor: pointer;
+    
+}
+
+
+.hr{
+    border-color: 1px gray;
+    margin-top: 50px;
+    width: 95%;
+}
+
+/*--------------darkmode------------*/
+
+.hr-darkMode{
+    border-color: #214368;
+    margin-top: 50px;
+    width: 95%;
+}
+
+.main-darkMode{
+    background-color: #0d1b2a;
+    color:rgb(236, 234, 234);
+    
+}
+

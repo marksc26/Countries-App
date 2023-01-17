@@ -1,0 +1,16 @@
+.loader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Amatic SC', cursive;
+    font-size: 28px;
+    max-height: fit-content;
+    margin: 0;
+  
+}
+.loader h1{
+    margin-bottom: 0;
+    margin-top: 0;
+}
